@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Back Navigation Buttons -->
+<div class="back-buttons">
+
+    <a href="index 2.html" class="hero-btn">
+        Back to Module
+    </a>
+
+    <a href="index.html" class="hero-btn">
+        Back to Home
+    </a>
+
+</div>
+    <header>
+        <h1>Student Registration Form</h1>
+    </header>
+
+    <section id="form">
+
+        <form class="student-form">
+
+            <h2>Register Student</h2>
+
+            <label for="roll">Roll Number:</label>
+            <input type="text"
+                   id="roll"
+                   name="roll"
+                   placeholder="Enter roll number"
+                   required>
+
+            <label for="name">Name:</label>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   placeholder="Enter full name"
+                   required>
+
+            <label for="class">Class:</label>
+
+<select id="class" name="class" required>
+    <option value="">Select Class</option>
+
+    <optgroup label="BSc">
+        <option value="BSc FY">FY</option>
+        <option value="BSc SY">SY</option>
+        <option value="BSc TY">TY</option>
+    </optgroup>
+
+    <optgroup label="BCS">
+        <option value="BCS FY">FY</option>
+        <option value="BCS SY">SY</option>
+        <option value="BCS TY">TY</option>
+    </optgroup>
+
+    <optgroup label="BCom">
+        <option value="BCom FY">FY</option>
+        <option value="BCom SY">SY</option>
+        <option value="BCom TY">TY</option>
+    </optgroup>
+
+    <optgroup label="BA">
+        <option value="BA FY">FY</option>
+        <option value="BA SY">SY</option>
+        <option value="BA TY">TY</option>
+    </optgroup>
+
+</select>
+
+            <label for="email">Email:</label>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter email"
+                   required>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel"
+                   id="mobile"
+                   name="mobile"
+                   placeholder="Enter 10 digit mobile number"
+                   pattern="[0-9]{10}"
+                   maxlength="10"
+                   required>
+
+            <label>Date of Birth:</label>
+
+<div class="dob-container">
+
+    <div class="dob-fields">
+
+        <select name="date" required>
+            <option value="">Date</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </select>
+
+        <select name="month" required>
+            <option value="">Month</option>
+            <option value="01">January</option>
+            <option value="02">February</option>
+            <option value="03">March</option>
+            <option value="04">April</option>
+            <option value="05">May</option>
+            <option value="06">June</option>
+            <option value="07">July</option>
+            <option value="08">August</option>
+            <option value="09">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+
+        <select name="year" required>
+            <option value="">Year</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+        </select>
+
+    </div>
+</div>
+
+            <button type="submit">Register</button>
+
+            <button type="reset">Reset</button>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>Student Registration Form</p>
+    </footer>
+
+</body>
+</html>
