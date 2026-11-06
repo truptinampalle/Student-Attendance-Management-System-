@@ -86,7 +86,7 @@ nav a:hover {
             rgba(241, 245, 233, 0.15),
             rgba(214, 232, 208, 0.15)
         ),
-        url("Final.jpg");
+        ("Final.jpg");
 
     background-size: cover;
     background-position: center;
